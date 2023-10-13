@@ -2,10 +2,10 @@
 <module version="4">
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/inversion_of_control/di_via_beans_basique" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/inversion_of_control/di_via_config_class" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/inversion_of_control/di_via_config_class_complex" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/inversion_of_control/di_via_xml" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/1-DependencyInjectionByXML[NOT WORKING]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/2-DependencyInjectionByAnnotation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/3-DependencyInjectionByConfigClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/4-DependencyInjectionByConfigClassForServices" isTestSource="false" />
     </content>
   </component>
 </module>

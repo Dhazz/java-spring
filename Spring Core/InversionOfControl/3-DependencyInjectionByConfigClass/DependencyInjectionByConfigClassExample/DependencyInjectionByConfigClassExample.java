@@ -1,11 +1,11 @@
-package src_config_class;
+package DependencyInjectionByConfigClassExample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import src_config_class_complex.ApplicationConfig;
 
-public class HelloWorld {
+public class DependencyInjectionByConfigClassExample {
+    /// Objectif: dire "Hello World !" sur la console
 
-    /// Contrairement à l'exemple basique, je configure l'Application Context non pas à partir de cette même classe mais
+    /// Contrairement à l'exemple DependencyInjectionByAnnotation, je configure l'Application Context non pas à partir de cette même classe mais
     /// dans mon fichier de Configuration
 
     /// Une fois l'ApplicationContext récupéré, j'execute mon Bean qui est un simple println.

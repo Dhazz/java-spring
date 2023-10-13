@@ -1,4 +1,4 @@
-package src_config_class;
+package DependencyInjectionByConfigClassExample;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

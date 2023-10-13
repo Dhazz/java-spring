@@ -1,4 +1,4 @@
-package src_xml;
+package DependencyInjectionByXML;
 
 public class SayHelloService {
 

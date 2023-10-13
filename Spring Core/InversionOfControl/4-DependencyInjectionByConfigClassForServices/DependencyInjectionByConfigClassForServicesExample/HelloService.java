@@ -1,4 +1,4 @@
-package src_config_class_complex;
+package DependencyInjectionByConfigClassForServicesExample;
 
 public class HelloService {
 

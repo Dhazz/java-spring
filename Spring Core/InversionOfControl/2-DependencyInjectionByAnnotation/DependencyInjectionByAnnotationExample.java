@@ -1,9 +1,8 @@
-package src_beans_basique;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-public class HelloWorld {
+public class DependencyInjectionByAnnotationExample {
+    /// But: dire "Hello World !" sur la console
 
     /// Je definis un Bean via l'annotation @Bean du module de Contexte de Spring
 
@@ -20,7 +19,7 @@ public class HelloWorld {
     /// Une fois l'ApplicationContext récupéré, j'execute mon Bean qui est un simple println.
 
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(HelloWorld.class);
+        AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(DependencyInjectionByAnnotationExample.class);
 
         appCtxt.getBean("sayHello");
     }
