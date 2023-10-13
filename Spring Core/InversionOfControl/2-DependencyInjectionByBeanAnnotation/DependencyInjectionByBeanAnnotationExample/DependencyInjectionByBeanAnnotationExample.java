@@ -1,11 +1,12 @@
+package DependencyInjectionByBeanAnnotationExample;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-public class DependencyInjectionByAnnotationExample {
-    /// But: dire "Hello World !" sur la console
+public class DependencyInjectionByBeanAnnotationExample {
+    /// Objectif: dire "Hello World !" sur la console
 
-    /// Je definis un Bean via l'annotation @Bean du module de Contexte de Spring
-
+    // Je definis un Bean via l'annotation @Bean du module de Contexte de Spring
     @Bean
     public void sayHello(){
         System.out.println("Hello World pour un Bean basique!");
@@ -16,11 +17,10 @@ public class DependencyInjectionByAnnotationExample {
     /// AnnotationConfigApplicationContext, comme son nom l'indique, et je lui passe le fichier qui correspond au
     /// fichier de Configuration de mes beans (dans cet exemple, lui-même, puisque mon Bean est ici)
 
-    /// Une fois l'ApplicationContext récupéré, j'execute mon Bean qui est un simple println.
-
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(DependencyInjectionByAnnotationExample.class);
+        AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(DependencyInjectionByBeanAnnotationExample.class);
 
+        // Une fois l'ApplicationContext récupéré, j'execute mon Bean qui est un simple println.
         appCtxt.getBean("sayHello");
     }
 }
