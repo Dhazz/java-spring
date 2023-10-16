@@ -20,7 +20,7 @@ ailleurs dans notre code et pas forcément de manière optimale.
 Une solution à ces problématiques a été apporté par Spring: L'Inversion de Contrôle(IoC).
 
 Au lieu que ce soit à nous d'instancier et de gérer le cycle de vie de notre dépendance, on laisse faire un conteneur IoC qui va le faire à notre
-place et de manière transparente. Ce conteneur se base sur des métadonnées via des annotations ou des fichiers de configuration. On désormais
+place et de manière transparente. Ce conteneur va utiliser un **Contexte d'application** qui va lire et gérer des métadonnées via des annotations ou des fichiers de configuration. On désormais
 utiliser facilement nos dépendances dans n'importe quel fichier.
 
 Dans le langage Spring, nos objets gérés par le conteneur IoC sont appelés des **Beans**.

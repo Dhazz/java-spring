@@ -1,5 +1,7 @@
-package DIByConstructorByAnnotationExample;
+package DIByAnnotation;
 
+import DIByAnnotation.ApplicationConfig;
+import DIByAnnotation.ReservationService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class DIByAnnotation {
@@ -9,6 +11,6 @@ public class DIByAnnotation {
 
         ReservationService reservationService = (ReservationService) appCtxt.getBean(ReservationService.class);
         int roomNumber = reservationService.getRoomNumber();
-        System.out.println("Hello World depuis la chambre "+roomNumber+" par une annotation Autowired sur un constructeur");
+        System.out.println("Hello World depuis la chambre "+roomNumber+" grace une DI par Annotation sur une propriété");
     }
 }

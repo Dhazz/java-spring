@@ -9,7 +9,7 @@ public class ApplicationConfig {
     // Même principe que pour l'injection simple vu avant mais cette fois-ci notre bean a besoin de 2 dépendances, le
     // constructeur est donc configuré en conséquences
 
-    // On peut également observer une cascade des dépendances: ReservationService -> FloorService -> FloorRepository
+    // On peut également observer une cascade des dépendances: DIByAnnotation.ReservationService -> FloorService -> FloorRepository
     @Bean
     public ReservationService reservationService(){
         return new ReservationService(roomService(), floorService(floorRepository()));

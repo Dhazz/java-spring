@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApplicationConfig {
 
     // Dans la classe de configuration on renseigne les dépendances dans les constructeurs:
-    // Ici on va injecter le bean RoomService (spécifié en dessous) dans le bean ReservationService
+    // Ici on va injecter le bean DIByAnnotation.RoomService (spécifié en dessous) dans le bean DIByAnnotation.ReservationService
     @Bean
     public ReservationService reservationService(){
         return new ReservationService(roomService());
