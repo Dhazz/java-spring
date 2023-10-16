@@ -2,16 +2,16 @@
 <module version="4">
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Définir ses beans/1-Définition d'un bean par XML[NOT WORKING]" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Définir ses beans/2-Définition d'un bean par Annotation" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Définir ses beans/3-Définition d'un bean dans une ConfigClass" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Définir ses beans/4-DependencyInjectionByConfigClassForServices" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Définir ses beans/5-BeanWithDependencies" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/1-Injection simple via config class" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/2-Injection multiple via config class" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/3-Injection via constructeur par les annotations" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/1-Injection via XML" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/2-Injection via annotations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Définir ses beans/1-Définition d'un bean par XML[NOT WORKING]" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Définir ses beans/2-Définition d'un bean par Annotation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Définir ses beans/3-Définition d'un bean dans une ConfigClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Définir ses beans/4-DependencyInjectionByConfigClassForServices" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Définir ses beans/5-BeanWithDependencies" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/1-Injection simple via config class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/2-Injection multiple via config class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/3-Injection via construct par annotations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/1-Injection via XML" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/2-Injection via annotations" isTestSource="false" />
     </content>
   </component>
 </module>
