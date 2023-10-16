@@ -7,7 +7,4 @@ public class RoomService {
     public int getRoomNumber() {
         return roomNumber;
     }
-
-
-
 }
