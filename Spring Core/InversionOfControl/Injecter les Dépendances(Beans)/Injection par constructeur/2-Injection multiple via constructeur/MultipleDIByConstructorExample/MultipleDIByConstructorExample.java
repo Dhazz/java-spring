@@ -2,7 +2,7 @@ package MultipleDIByConstructorExample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class MultipleDependencyInjectionByConstructorExample {
+public class MultipleDIByConstructorExample {
 
     public static void main(String[] args){
         AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(ApplicationConfig.class);

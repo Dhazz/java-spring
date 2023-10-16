@@ -1,8 +1,8 @@
-package DIByAnnotationExample;
+package DIByConstructorByAnnotationExample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class DependencyInjectionByAnnotation {
+public class DIByAnnotation {
 
     public static void main(String[] args){
         AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(ApplicationConfig.class);

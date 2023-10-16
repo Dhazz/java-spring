@@ -1,4 +1,4 @@
-package DIByAnnotationExample;
+package DIByConstructorByAnnotationExample;
 
 import org.springframework.stereotype.Component;
 

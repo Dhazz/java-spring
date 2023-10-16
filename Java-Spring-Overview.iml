@@ -7,9 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Définir ses beans/3-BeanDefinitionInConfigClass" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Définir ses beans/4-DependencyInjectionByConfigClassForServices" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Définir ses beans/5-BeanWithDependencies" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/1-Injection simple via constructeur" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/2-Injection multiple via constructeur" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/3-Injection par les annotations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/1-Injection simple via constructeur" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/2-Injection multiple via constructeur" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Spring Core/InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/3-Injection via constructeur par les annotations" isTestSource="false" />
     </content>
   </component>
 </module>

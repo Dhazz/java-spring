@@ -2,7 +2,7 @@ package DIByConstructorExample;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class DependencyInjectionByConstructorExample {
+public class DIByConstructorExample {
 
     public static void main(String[] args){
         AnnotationConfigApplicationContext appCtxt = new AnnotationConfigApplicationContext(ApplicationConfig.class);
