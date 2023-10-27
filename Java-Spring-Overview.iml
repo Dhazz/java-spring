@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par constructeur/3-Injection via construct par annotations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/1-Injection via XML" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2-Spring Core/1-InversionOfControl/Injecter les Dépendances(Beans)/Injection par propriétés/2-Injection via annotations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3-Spring Boot/1-ConfigurationBasique" isTestSource="false" />
     </content>
   </component>
 </module>
